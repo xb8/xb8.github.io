@@ -1,0 +1,23 @@
+  body {background-color: white;}
+  p { text-align: justify; font-family: Trajan , monospace; font-size: 13px;}
+  ul { font-family: Trajan , monospace; font-size: 13px;}
+  h3 { font-family: Trajan , monospace; font-size: 15px;}
+
+  .body {
+  max-width: 900px;
+  margin-top: 60px;
+  margin-right:  auto;
+  margin-left:  auto;
+  }
+
+  .logo {
+    margin-top:60px;
+    position: relative;
+    text-align: right;
+    color: white;
+  }
+
+  a:link {color: #d3bfcd;}
+  a:visited {color: #d3bfcd;}
+  a:hover {color: #d3bfcd;}
+  a:active {color: #d3bfcd;}
