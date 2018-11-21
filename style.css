@@ -21,3 +21,14 @@
   a:visited {color: #d3bfcd;}
   a:hover {color: #d3bfcd;}
   a:active {color: #d3bfcd;}
+
+  table {
+  width: 100%;
+  }
+
+  table, tr, th, td {
+  font-family: Trajan , monospace; font-size: 13px;
+  border: 1px solid #d3bfcd;
+  border-collapse: collapse;
+  padding: 5px;
+  }
