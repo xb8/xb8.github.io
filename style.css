@@ -1,6 +1,7 @@
   body {background-color: white;}
   p { text-align: justify; font-family: Trajan , monospace; font-size: 13px;}
   ul { font-family: Trajan , monospace; font-size: 13px;}
+  ol { font-family: Trajan , monospace; font-size: 13px;}
   h3 { font-family: Trajan , monospace; font-size: 15px;}
 
   .body {

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>x - Opening doors with less than 1$ !</title>
+   <link rel="stylesheet" href="style.css">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130196697-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-130196697-1');
+</script>
+
+  
+ </head>
+ <body>
+ <div class="body">
+ <h3>One dollar door bypass tool</h3>
+ <p><ul>
+<li><a href="#introduction">Introduction</a>
+<li><a href="#requirements">Requirements</a>
+<li><a href="#bypasses">Possible bypasses</a>
+<ul><li><a href="#UnderOver">Under and Over the door</a>
+<li><a href="#LeftRight">Left and Right of the door</a></ul>
+<li><a href="#knots">Knots to know</a>
+</ul></p>
+<br>
+
+<p><a name="introduction"></a><b>Introduction: what is this about?</b>
+<br><br>
+  <img src="https://raw.githubusercontent.com/xb8/xb8.github.io/master/resources/UdtFishingRodDrake.png" style="display:block; max-width: 600px"> 
+ <br><br> You are a young infosec student. You are passionate about Physical Penetration Testing and Intrusions. You really really like stuff like the <a href="https://www.youtube.com/watch?v=zOQsAnJ0uk4" target="_blank">Under the Door tool</a> but you hate the fact that it costs 30$ and the shipping is even double of that because you live in EU. Nothing can stop you tho so you make yourself one since DIY is cool and you can build one <a href="https://blakhal0.blogspot.com/2012/09/diy-under-door-mule-tool.html?m=1" target="_blank">for less than 8$</a>. It doesnt end there and you want to find ways to hack doors even cheaper and more fancy and you figure out how to do it! Let's see what we need and in what circumstances we can do such attack:
+</p><br>
+
+
+<p><a name="requirements"></a><b>Requirements:</b>
+<br><br>
+ <b>Materials:</b>
+ <ul>
+  <li>A fishing line
+  <li>A ruler</ul><p>
+That's really it. You can even substitute the ruler with anything thin and long you can get able to be slided under the door. A ruler is just the first cheap and common thing I've found. They also often have a small hole on one of the ends and we will make use of that a lot! What is "really" needed (and to be honest, even in this case it's not 100% necessary and any string will do) is a fishing line. Why that? 1) it's cheap 2) really cheap, you can get meters and meters of it for a handful of cents, but most important it's 3) very thin and 4) strong and hard to snap.
+<br><br>
+<b>Conditions:</b>
+ <ul>
+  <li>A door with two opposite sides that have enough space to slide the fishing line in it
+</ul><p>
+The bottom of a door will likely always have about a centimeter of space open. A UTD tool abuses that and we will do the same with other sides of the door and we will be able to do it even when that space is really really small, since a fishing line is just a fration of a millimeter wide!
+</p><br>
+
+<p><a name="bypasses"></a><b>Possible bypasses</b>
+<br><br>
+ What we are trying to do is create a system we can manipulate in order to wrap the fishing line around the door handle on the other side and pull the string to turn it down and open the door.<br>
+ We can do so in two ways, depending on which sides we can use to slide the fishing line to the other side. Then we will try to make this position, and by pulling the string we will be able to open the door by turning the handle. <br><img src="https://raw.githubusercontent.com/xb8/xb8.github.io/master/resources/endposition.png" style="display:block; max-width: 400px"><br>
+
+</p><br>
+
+<p><a name="UnderOver"></a><b>Under and Over the door</b>
+<br><br>
+ <ol>
+  <li>Slide the fishing line <b>OVER</b> the door, in the middle. We will name the extremity we are keeping on our side A and the other end over the door B.
+  <li>Use the ruler <b>UNDER</b> the door to "catch" the line on the other side and bring it back to ours.
+  <li>Make a dropper knot to the fishing line B.
+  <li>Pass the string B in the hole on the ruler.
+  <li>Pass the string A in the hole of the dropper knot.
+  <li>Put the ruler back under the door as far as possible. This will give us enough room to be able to catch the handle
+  <li>Pull the string A from the top of the door towards you. This will make the dropper knot slide to the other side bringing string A with it, doubled.
+  <li>Keep pulling till the knot ends up on the highest point of the door possible.
+  <li>Slide the ruler towards the handle.
+  <li>Pull the string B till it catches the handle. Pull again while also pushing/pulling the door to open it!
+  </ol><p>
+</p><br>
+
+<p><a name="LeftRight"></a><b>Left and Right of the door</b>
+<br><br>
+ <ol>
+  <li>Slide a first fishing line in one of the two sides of the door.
+  <li>Catch it with the ruler.
+  <li>Slide a second line in the other side.
+  <li>Catch this one too.
+  <li>Make a dropper knot in one of them.
+  <li>Connect them using a blood knot.
+  <li>Pass a fishing line in the dropper knot.
+  <li>Have one of the two ends of this line also pass through the ruler hole.
+  <li>Pull both extremities on the top to make the knots go to the other side passing under the door.
+  <li>Proceed similarly to the first method and you are good to open the door this way too!
+  </ol><p>
+</p><br>
+
+<p><a name="knots"></a><b>Knots to know</b>
+<br><br>
+Dropper Knot:<img src="https://raw.githubusercontent.com/xb8/xb8.github.io/master/resources/dropperknot.jpg" style="display:block; max-width: 400px"><br>
+Blood Knot:<img src="https://raw.githubusercontent.com/xb8/xb8.github.io/master/resources/bloodknot.jpg" style="display:block; max-width: 400px">
+ There are just two knots needed. One is the <a href="https://www.youtube.com/watch?v=qiuwhoyltbs" target="_blank">Dropper Knot</a> and the other one helps in the Left and Right method when you need to connect both the fishing lines and it's the <a href="https://www.youtube.com/watch?v=q06QKib1AEQ" target="_blank">blood knot</a>, but any should work.
+</p><br>
+
+
+</div>
+</body>
+</html>
